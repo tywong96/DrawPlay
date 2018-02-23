@@ -47,6 +47,7 @@ public class Cat {
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
+		// Draw the nose
 		g2.setColor(Color.green);
 		x = catX + NOSE_X;
 		y = catY + NOSE_Y;
