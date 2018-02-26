@@ -1,3 +1,7 @@
+/* Collaborators : Thiam Yue Wong, Jeff Greene, Kyoseo Koo
+ * DrawPlay Group
+ */
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
@@ -17,7 +21,7 @@ public class MyDrawing extends JPanel {
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
 		cat.draw(g, 50, 50);
-		cat2.draw(g, 200, 200);
+		cat2.draw2(g, 200, 200);
 	}
 	
 	/**
